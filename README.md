@@ -2,7 +2,7 @@
 
 <p align="center">
   <strong>Plugins Unreal Engine • Apps Web Modernes • Créateur sur Fab</strong><br>
-  <em>Unreal Engine • React.js • Spring Boot • Laravel</em>
+  <em>Unreal Engine • React.js • Spring Boot • Node js</em>
 </p>
 
 <p align="center">
