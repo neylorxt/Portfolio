@@ -380,6 +380,13 @@ function App() {
                          className="hover:text-red-400">StarterKit-React-Tailwind</a>
                     </span>
                   </li>
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+                    <span>
+                      <a href="https://github.com/neylorxt?tab=repositories" target="_blank" rel="noreferrer"
+                         className="hover:text-red-400">etc ...</a>
+                    </span>
+                  </li>
 
                 </ul>
               </div>
@@ -390,61 +397,153 @@ function App() {
 
 
           {/*--------------------------- MY SKILL ----------------------------*/}
-          <section className="flex flex-col items-center justify-center gap-3 py-10 mb-10">
-            <h1 className="text-4xl font-bold">MY SKILL</h1>
+          <section>
+            <article className="flex flex-col items-center justify-center gap-3 py-10 mb-10">
+              <h1 className="text-4xl font-bold">MY SKILL</h1>
 
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
 
-              <div
-                  className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"
-                     className="w-12 h-12 mb-2"/>
-                <span className="text-gray-300">HTML5</span>
-              </div>
-              <div
-                  className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"
-                     className="w-12 h-12 mb-2"/>
-                <span className="text-gray-300">CSS3</span>
-              </div>
-              <div
-                  className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
-                     alt="TailwindCSS" className="w-12 h-12 mb-2"/>
-                <span className="text-gray-300">TailwindCSS</span>
-              </div>
-              <div
-                  className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                     alt="JavaScript" className="w-12 h-12 mb-2"/>
-                <span className="text-gray-300">JavaScript</span>
-              </div>
-              <div
-                  className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"
-                     className="w-12 h-12 mb-2"/>
-                <span className="text-gray-300">React.js</span>
-              </div>
-              <div
-                  className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js"
-                     className="w-12 h-12 mb-2"/>
-                <span className="text-gray-300">Node.js</span>
-              </div>
-              <div
-                  className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Git"
-                     className="w-12 h-12 mb-2"/>
-                <span className="text-gray-300">Java</span>
-              </div>
-              <div
-                  className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Next.js"
-                     className="w-12 h-12 mb-2"/>
-                <span className="text-gray-300">Spring Boot</span>
-              </div>
+                <div
+                    className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"
+                       className="w-12 h-12 mb-2"/>
+                  <span className="text-gray-300">HTML5</span>
+                </div>
+                <div
+                    className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"
+                       className="w-12 h-12 mb-2"/>
+                  <span className="text-gray-300">CSS3</span>
+                </div>
+                <div
+                    className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+                       alt="TailwindCSS" className="w-12 h-12 mb-2"/>
+                  <span className="text-gray-300">TailwindCSS</span>
+                </div>
+                <div
+                    className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                       alt="JavaScript" className="w-12 h-12 mb-2"/>
+                  <span className="text-gray-300">JavaScript</span>
+                </div>
+                <div
+                    className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"
+                       className="w-12 h-12 mb-2"/>
+                  <span className="text-gray-300">React x2</span>
+                </div>
+                <div
+                    className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js"
+                       className="w-12 h-12 mb-2"/>
+                  <span className="text-gray-300">Node.js</span>
+                </div>
+                <div
+                    className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"
+                       className="w-12 h-12 mb-2"/>
+                  <span className="text-gray-300">Java</span>
+                </div>
+                <div
+                    className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot"
+                       className="w-12 h-12 mb-2"/>
+                  <span className="text-gray-300">Spring Boot</span>
+                </div>
 
-            </div>
+                <div
+                    className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg" alt="Prisma"
+                       className="w-12 h-12 mb-2"/>
+                  <span className="text-gray-300">Prisma</span>
+                </div>
+
+
+                <div
+                    className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="Postgres"
+                       className="w-12 h-12 mb-2"/>
+                  <span className="text-gray-300">Postgres</span>
+                </div>
+
+                <div
+                    className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySql"
+                       className="w-12 h-12 mb-2"/>
+                  <span className="text-gray-300">MySql</span>
+                </div>
+
+              </div>
+            </article>
+
+            <article className="flex flex-col items-center justify-center gap-3 py-10 mb-10">
+              <h1 className="text-4xl font-bold">Software & Tools</h1>
+
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+
+
+                <div
+                    className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg" alt="Jetbrains"
+                       className="w-12 h-12 mb-2"/>
+                  <span className="text-gray-300">Jetbrains</span>
+                </div>
+
+                <div
+                    className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rider/rider-original.svg" alt="Jetbrains Rider"
+                       className="w-12 h-12 mb-2"/>
+                  <span className="text-gray-300">Rider</span>
+                </div>
+
+                <div
+                    className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/phpstorm/phpstorm-original.svg" alt="Jetbrains PhpStorm"
+                       className="w-12 h-12 mb-2"/>
+                  <span className="text-gray-300">PhpStorm</span>
+                </div>
+
+
+                <div
+                    className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" alt="Jetbrains Intellij"
+                       className="w-12 h-12 mb-2"/>
+                  <span className="text-gray-300">Intellij</span>
+                </div>
+
+                <div
+                    className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VsCode"
+                       className="w-12 h-12 mb-2"/>
+                  <span className="text-gray-300">Vs Code</span>
+                </div>
+
+                <div
+                    className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Postman"
+                       className="w-12 h-12 mb-2"/>
+                  <span className="text-gray-300">Postman</span>
+                </div>
+
+                <div
+                    className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github"
+                       className="w-12 h-12 mb-2"/>
+                  <span className="text-gray-300">Github</span>
+                </div>
+
+                <div
+                    className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg" alt="Unreal Engine"
+                       className="w-12 h-12 mb-2"/>
+                  <span className="text-gray-300">Unreal Engine</span>
+                </div>
+
+
+              </div>
+            </article>
+
           </section>
 
 

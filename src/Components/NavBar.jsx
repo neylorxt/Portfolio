@@ -1,7 +1,7 @@
 
 export default function NavBar(){
     return (
-        <div className="navbar bg-base-300 shadow-sm">
+        <div className="navbar bg-base-300 shadow-sm fixed z-999">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
@@ -13,6 +13,7 @@ export default function NavBar(){
                         <li><a href="https://linktr.ee/neylorxt" target="_blank" >Liktree</a></li>
                         <li><a href="https://www.youtube.com/@NEYLORXT" target="_blank" >Youtube</a></li>
                         <li><a href="https://github.com/Neylorxt" target="_blank">Github</a></li>
+                        <li><a href="https://www.twitch.tv/neylorxt" target="_blank">Twitch</a></li>
                     </ul>
                 </div>
             </div>
