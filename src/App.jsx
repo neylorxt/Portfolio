@@ -175,6 +175,7 @@ function App() {
                 </div>
 
                 <ul className="mt-6 flex flex-col gap-2 text-xs">
+
                   <li>
                     <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success"
                          fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -182,6 +183,7 @@ function App() {
                     </svg>
                     <span>HTML CSS</span>
                   </li>
+
                   <li>
                     <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success"
                          fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -189,6 +191,7 @@ function App() {
                     </svg>
                     <span>Tailwind css</span>
                   </li>
+
                   <li>
                     <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success"
                          fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -196,6 +199,7 @@ function App() {
                     </svg>
                     <span>React js</span>
                   </li>
+
                   <li>
                     <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success"
                          fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -352,7 +356,7 @@ function App() {
                   <li>
                     <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
                     <span>
-                      <a href="https://github.com/neylorxt/Moderne-To-Do-List" target="_blank" rel="noreferrer"
+                      <a href="https://moderne-to-do-list.vercel.app" target="_blank" rel="noreferrer"
                          className="hover:text-red-400">Moderne-To-Do-List</a>
                     </span>
                   </li>
@@ -360,16 +364,8 @@ function App() {
                   <li>
                     <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
                     <span>
-                      <a href="https://github.com/neylorxt/MovieFinder" target="_blank" rel="noreferrer"
+                      <a href="https://movie-finder-gilt.vercel.app" target="_blank" rel="noreferrer"
                          className="hover:text-red-400">MovieFinder</a>
-                    </span>
-                  </li>
-
-                  <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-                    <span>
-                      <a href="https://github.com/neylorxt/Snypes-website" target="_blank" rel="noreferrer"
-                         className="hover:text-red-400">Snypes-website</a>
                     </span>
                   </li>
 
@@ -380,6 +376,34 @@ function App() {
                          className="hover:text-red-400">StarterKit-React-Tailwind</a>
                     </span>
                   </li>
+
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+                    <span>
+                      <a href="https://github.com/neylorxt/mini-bank" target="_blank" rel="noreferrer"
+                         className="hover:text-red-400">Mini Bank</a>
+                    </span>
+                  </li>
+
+
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+                    <span>
+                      <a href="https://github.com/neylorxt/mini-bank-api" target="_blank" rel="noreferrer"
+                         className="hover:text-red-400">Mini Bank API</a>
+                    </span>
+                  </li>
+
+
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+                    <span>
+                      <a href="https://github.com/neylorxt/react-native-learn" target="_blank" rel="noreferrer"
+                         className="hover:text-red-400">React Native Learn</a>
+                    </span>
+                  </li>
+
+
                   <li>
                     <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
                     <span>
@@ -405,46 +429,60 @@ function App() {
 
                 <div
                     className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
+                  <img src="https://img.icons8.com/?size=100&id=40669&format=png&color=000000" alt="C++"
+                       className="w-12 h-12 mb-2"/>
+                  <span className="text-gray-300">C++</span>
+                </div>
+
+                <div
+                    className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"
                        className="w-12 h-12 mb-2"/>
                   <span className="text-gray-300">HTML5</span>
                 </div>
+
                 <div
                     className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"
                        className="w-12 h-12 mb-2"/>
                   <span className="text-gray-300">CSS3</span>
                 </div>
+
                 <div
                     className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
                        alt="TailwindCSS" className="w-12 h-12 mb-2"/>
                   <span className="text-gray-300">TailwindCSS</span>
                 </div>
+
                 <div
                     className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
                        alt="JavaScript" className="w-12 h-12 mb-2"/>
                   <span className="text-gray-300">JavaScript</span>
                 </div>
+
                 <div
                     className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"
                        className="w-12 h-12 mb-2"/>
                   <span className="text-gray-300">React x2</span>
                 </div>
+
                 <div
                     className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js"
                        className="w-12 h-12 mb-2"/>
                   <span className="text-gray-300">Node.js</span>
                 </div>
+
                 <div
                     className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"
                        className="w-12 h-12 mb-2"/>
                   <span className="text-gray-300">Java</span>
                 </div>
+
                 <div
                     className="flex flex-col items-center p-4 bg-gray-800 rounded-xl shadow-lg transition transform hover:scale-105 hover:bg-gray-600">
                   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot"

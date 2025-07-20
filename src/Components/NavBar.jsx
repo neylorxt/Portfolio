@@ -10,10 +10,10 @@ export default function NavBar(){
                     <ul
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        <li><a href="https://www.twitch.tv/neylorxt" target="_blank">Twitch</a></li>
                         <li><a href="https://linktr.ee/neylorxt" target="_blank" >Liktree</a></li>
                         <li><a href="https://www.youtube.com/@NEYLORXT" target="_blank" >Youtube</a></li>
                         <li><a href="https://github.com/Neylorxt" target="_blank">Github</a></li>
-                        <li><a href="https://www.twitch.tv/neylorxt" target="_blank">Twitch</a></li>
                     </ul>
                 </div>
             </div>
